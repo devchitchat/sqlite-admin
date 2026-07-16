@@ -1,0 +1,19 @@
+node_modules
+.hubot_history
+.node-version
+.nyc_output/
+npm-debug.log
+coverage/
+_site
+.env
+test-data
+data
+external-scripts.json
+client-scripts
+.DS_Store
+
+# allow workflow helper scripts under .github/scripts
+!.github/
+!.github/scripts/
+!.github/scripts/**
+.data
