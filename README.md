@@ -37,14 +37,19 @@ Point it at a database file and it starts a web server:
 DB_FILE_PATH=/path/to/your.db sqlite-admin
 ```
 
-Then open [http://localhost:3000/sqlite-admin](http://localhost:3000/sqlite-admin).
+Then open [http://localhost:4269/sqlite-admin](http://localhost:4269/sqlite-admin).
 
-**Options (environment variables):**
+**Options:**
+
+```bash
+sqlite-admin --port 7889     # override port via CLI flag
+PORT=9000 sqlite-admin       # or via environment variable (CLI flag takes precedence)
+```
 
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `DB_FILE_PATH` | — | Path to the SQLite file to open (required, or set in the UI) |
-| `PORT` | `3000` | Port to listen on |
+| `PORT` | `4269` | Port to listen on (overridden by `--port`) |
 | `SQLITE_ADMIN_BASE_PATH` | `/sqlite-admin` | URL prefix for all routes |
 
 You can also set the database path from the UI — there is a path field at the top of every page. It is persisted in a browser cookie for the session.
