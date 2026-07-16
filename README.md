@@ -39,6 +39,14 @@ DB_FILE_PATH=/path/to/your.db sqlite-admin
 
 Then open [http://localhost:4269/sqlite-admin](http://localhost:4269/sqlite-admin).
 
+**Update to the latest release:**
+
+```bash
+sqlite-admin update             # update to latest release
+sqlite-admin update --ref v1.2.0  # pin to a specific version
+sqlite-admin update --force     # reinstall even if already on the latest
+```
+
 **Options:**
 
 ```bash
