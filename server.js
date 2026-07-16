@@ -1,4 +1,4 @@
-import { handleRequest } from './scripts/SqliteAdmin.mjs'
+import { handleRequest } from './src/SqliteAdmin.mjs'
 
 const port = parseInt(process.env.PORT ?? '3000', 10)
 const routeBase = process.env.SQLITE_ADMIN_BASE_PATH ?? '/sqlite-admin'

@@ -4,7 +4,7 @@ import fs from 'node:fs/promises'
 import os from 'node:os'
 import path from 'node:path'
 
-import { formatBytes, listTables } from '../scripts/SqliteAdmin.mjs'
+import { formatBytes, listTables } from '../src/SqliteAdmin.mjs'
 
 describe('SqliteAdmin', () => {
   it('formats byte sizes for display', () => {
