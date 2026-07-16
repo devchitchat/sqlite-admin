@@ -6,6 +6,10 @@
   "scripts": {
     "start": "bun server.js",
     "dev": "bun --watch server.js",
-    "test": "bun test"
+    "test": "bun test",
+    "package": "bun scripts/package.mjs",
+    "release": "bun scripts/release.mjs",
+    "release:fix": "bun scripts/release.mjs fix",
+    "release:breaking": "bun scripts/release.mjs breaking"
   }
 }

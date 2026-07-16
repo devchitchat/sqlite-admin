@@ -1,4 +1,5 @@
 node_modules
+sqlite-admin-src.zip
 .hubot_history
 .node-version
 .nyc_output/
@@ -17,3 +18,4 @@ client-scripts
 !.github/scripts/
 !.github/scripts/**
 .data
+.claude
