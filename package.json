@@ -1,6 +1,6 @@
 {
   "name": "sqlite-admin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A standalone SQLite admin web app",
   "type": "module",
   "scripts": {
